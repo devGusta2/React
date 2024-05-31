@@ -7,7 +7,7 @@ function Header(){
                 <a href="#">Home</a>
                 <a href="#">Assistir</a>
                 <a href="#">Login</a>
-
+                <a href="#">Configurações</a>
             </nav>
         </header>
     );
