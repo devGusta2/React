@@ -1,3 +1,4 @@
+import styles from "./Header.module.css";
 function Header(){
     return(
         //JSX HTML COM CSS DENTRO DO JS isso é o JSX
@@ -5,7 +6,8 @@ function Header(){
 
         // no REACT utilizamos class name o que no html seria só class
         // pois no react class é uma palavra reservada
-        <header className="">
+        <header className={style.header}>
+            {/* funciona mais ou menos como no react native */}
             <span>GUSTA</span>
             <nav>
                 <a href="#">Home</a>
