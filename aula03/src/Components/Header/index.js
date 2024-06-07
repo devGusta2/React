@@ -1,7 +1,7 @@
 function Header(){
     return(
         //JSX HTML COM CSS DENTRO DO JS isso é o JSX
-        <header>
+        <header className="">
             <span>GUSTA</span>
             <nav>
                 <a href="#">Home</a>
