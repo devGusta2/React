@@ -5,6 +5,7 @@ import Header from './Components/Header';
 function App() {
   return (
     <div className="App">
+      {/* Importando componente */}
       <Header/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

@@ -14,6 +14,8 @@ function Header(){
                 <a href="#">Assistir</a>
                 <a href="#">Login</a>
                 <a href="#">Configurações</a>
+                <a href="#">Novidades</a>
+
             </nav>
         </header>
     );
