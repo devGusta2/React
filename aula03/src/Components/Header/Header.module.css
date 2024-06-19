@@ -1,4 +1,10 @@
 .header{
     background-color: black;
     border-bottom: 2px solid #F44336;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
 }
