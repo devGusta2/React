@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       {/* Importando componente */}
       <Header/>
+  
       <Footer/>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

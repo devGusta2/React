@@ -4,7 +4,7 @@ function Footer(){
 
     return(
         <footer className={styles.footer}>
-            <h2>Gusta dev 2 &copy Desenvolvido por gustavo rodrigues</h2>
+            <h2>Gusta dev 2 &copy; Desenvolvido por gustavo rodrigues</h2>
         </footer>
     );
 }
