@@ -11,3 +11,16 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.header span{
+    font-size: 2rem;
+    color: #b71c1c;
+    font-weight: 500;
+}
+
+.header nav a{
+    color: white;
+    text-decoration: none;
+    gap: 1em;
+    padding-inline: 0.5rem;
+}

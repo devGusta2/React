@@ -6,7 +6,7 @@ function Header(){
 
         // no REACT utilizamos class name o que no html seria só class
         // pois no react class é uma palavra reservada
-        <header className={style.header}>
+        <header className={styles.header}>
             {/* funciona mais ou menos como no react native */}
             <span>GUSTA</span>
             <nav>
