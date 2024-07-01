@@ -3,7 +3,11 @@ import styles from 'Header.modules.css';
 
 function header(){
     return(
-        <header></header>
+        <header className="header">
+            <nav>
+                
+            </nav>
+        </header>
     );
 }
 export default header;
