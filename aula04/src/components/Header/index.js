@@ -3,9 +3,13 @@ import styles from './Header.module.css';
 
 function header(){
     return(
-        <header className="header">
+        <header className={styles.header}>
             <nav>
-                
+                <a href="#">Home</a>
+                <a href="#">Assistir</a>
+                <a href="#">Login</a>
+                <a href="#">Configurações</a>
+                <a href="#">Novidades</a>
             </nav>
         </header>
     );
