@@ -4,6 +4,7 @@ import styles from './Header.module.css';
 function header(){
     return(
         <header className={styles.header}>
+               <span>GUSTA</span>
             <nav>
                 <a href="#">Home</a>
                 <a href="#">Assistir</a>

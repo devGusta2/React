@@ -4,12 +4,13 @@
     position: fixed;
     top: 0;
     width: 100%;
+    height: 68px;
     display: flex;
     flex-direction: row;
     padding: 0.5rem;
     font-size: 1.5rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .header span{
@@ -23,7 +24,4 @@
     text-decoration: none;
     gap: 1em;
     padding-inline: 0.5rem;
-}
-.header nav{
-    margin-right: 1rem;
 }
