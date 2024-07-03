@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Banner from './components/Banner';
+import Container from './components/Container';
 
 
 function App() {
@@ -10,9 +11,14 @@ function App() {
     <div className="App">
         <Header/>
        
-        <h1>Olá</h1>
+       
         <Banner/>
+    {/* Dentro do container os PROPS children são os parametros */}
+        <Container>
+          <h1>Olá</h1>
+        </Container>
         <Footer/>
+        
     </div>
   );
 }
