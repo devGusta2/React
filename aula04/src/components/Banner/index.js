@@ -1,9 +1,11 @@
 import styles from './Banner.module.css';
 
-function banner(){
+function Banner(){
     return(
-        <h1>Banner funcionando</h1>
+        <div className={styles.banner}>
+
+        </div>
     );
 }
 
-export default banner;
+export default Banner;
