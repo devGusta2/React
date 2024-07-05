@@ -15,7 +15,7 @@ function App() {
         <Banner/>
     {/* Dentro do container os PROPS children são os parametros */}
         <Container>
-          <h1>Olá</h1>
+          <h1>Hello World</h1>
         </Container>
         <Footer/>
         
